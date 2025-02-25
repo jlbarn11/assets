@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Device &amp; Usability Learning Lab</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="The Device and Usability Learning Lab is located on the ASU Polytechnic Campus in Mesa, AZ. The lab offers tutoring, usability testing, responsive website testing, and collaborative space to students and faculty.">
+	<meta name="author" content="Jessica Barnett">
+	<meta name="keywords" content="Mesa, AZ, usability, responsive web, design, UI/UX, Accessibility">
+	<script src="https://cdnjs.cloudflare.com/polyfill/v2/polyfill.min.js"></script>
+	<!-- Site-Specific CSS -->
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<!-- Font Awesome Icons for Mobile Menu -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<!-- Import Raleway Font -->
+	<link href='https://fonts.googleapis.com/css?family=Raleway:300,600' rel='stylesheet' type='text/css'>
+	<!--[if lt IE 9]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<script>
+			//Picture element HTML5 shiv
+			document.createElement("picture");
+	</script>
+	<script src="picturefill.min.js" async></script>
+</head>
+<body>
+	<!-- <?php require 'contact.php';?> -->
+	<header role="banner">
+		<h1 class="hidden">The Device and Usability Learning Lab</h1>
+		<div class="bigLogo">
+			<a href="index.html"><img class="logo" src="images/DULL-logo.png" alt="The logo for the Device and Usability Learning Lab includes the name of the lab in text"></a>
+		</div>
+		<a href="#main-menu"
+		    id="main-menu-toggle"
+		    class="menu-toggle"
+		    aria-label="Open main menu">
+		    <span class="sr-only">Open main menu</span>
+		    <span class="fa fa-bars" aria-hidden="true"></span>
+	  	</a>
+		<nav id="main-menu" class="main-menu" aria-label="Main menu" role="navigation">
+			<h2 class="hidden">Navigation</h2>
+			<a href="#main-menu-toggle"
+    			id="main-menu-close"
+    			class="menu-close"
+     			aria-label="Close main menu">
+    			<span class="sr-only">Close main menu</span>
+    			<span class="fa fa-times" aria-hidden="true"></span>
+    		</a>
+			<ul id="menu">
+				<li class="nav-item">
+					<a class="nav-link" href="index.html">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="hours.html">Hours</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="tutoring.html">Tutoring</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="equipment.html">Equipment</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link active" href="about.html">About</a>
+				</li>
+			</ul>
+		</nav>
+		<a href="#main-menu-toggle"
+    		class="backdrop"
+    		tabindex="-1"
+    		aria-hidden="true" hidden>
+    	</a>
+		<!-- <div class="mobileLogo">
+			<a href="index.html"><img class="logo" src="images/DULLsquareLogo.png" alt="The logo for the Device and Usability Learning Lab includes the name of the lab in text"></a>
+		</div> -->
+	</header>
+	<main role="main">
+		<h3 class="centeredText">About Us</h3>
+		<div id="aboutProfessors">
+			<div class="professor">
+				<img src="images/Carrasquilla.jpg" alt="Photograph of Christina Carrasquilla">
+				<h4 class="centeredText profName">Christina Carrasquilla</h4>
+				<h5>Co-Director</h5>
+				<ul>
+					<li>Design</li>
+					<li>Development</li>
+					<li>Social Media</li>
+				</ul>
+			</div>
+			<div class="professor">
+				<img src="images/Prewitt.jpg" alt="Photograph of Deborah Prewitt">
+				<h4 class="centeredText profName">Deborah Prewitt</h4>
+				<h5>Co-Director</h5>
+				<ul>
+					<li>Usability</li>
+					<li>User-Experience</li>
+					<li>Content Writing</li>
+					<li>Content Management</li>
+				</ul>
+			</div>
+			<div class="professor">
+				<img src="images/Squire.jpg" alt="Photograph of Susan Squire">
+				<h4 class="centeredText profName">Susan Squire</h4>
+				<h5>Co-Director</h5>
+				<ul>
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>Responsive Design</li>
+					<li>Creative Thinking</li>
+				</ul>
+			</div>
+		</div>	
+		<div id="donate">
+			<div>
+				<img src="images/dullQuote.jpg" alt="Image showing the text Good design starts with an understanding of psychology and technology by Don Norman in white vinyl on a bright green wall">
+			</div>
+			<div>
+			<h3 class="centeredText">Donate&nbsp;to the&nbsp;Lab</h3>
+			<p>If you have a device that you're no longer using, consider donating it to the lab! We try to have a diverse set of devices available so that websites can be thoroughly tested for responsiveness and usability. <a href="mailto:devicelab@asu.edu">Contact us</a> to learn more.</p>
+			</div>
+		</div>
+	</main>
+
+	<footer>
+		<h2 class="hidden">Contact Form and Map</h2>
+		<div id="footerContent">
+			<div id="contactForm">
+				<h3>Contact the DULL</h3>
+				<form method="post" action="contact.php">
+					<input type="text" name="myName" value="Name" required>
+					<input type="email" name="myEmail" value="Email" required>
+					<textarea name="myComments" required>Message</textarea>
+					<button type="submit" name="submit" id="mySubmit">Submit</button>
+				</form>
+			</div>
+			<div id="mapAndAddress">
+				<h3 class="hidden">Google Maps Directions to the Lab</h3>
+				<iframe src="https://www.google.com/maps/embed/v1/view?zoom=17&center=33.3065%2C-111.6765&key=AIzaSyANsJfodb7GOrBCHVmDPnWgIjnAkdFdbEQ" allowfullscreen></iframe>
+				<p>Device and Usability Learning Lab<br>7271 E Sonoran Arroyo Mall #157, Mesa, AZ 85212</p>
+			</div>
+		</div>
+		<p id="copyrightStatement">Copyright &copy; 2019 Device and Usability Learning Lab</p>
+	</footer>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"917a2b796c1b7d27","serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"version":"2025.1.0","token":"e64fdfc25a574723a13d1f77e07bc18c"}' crossorigin="anonymous"></script>
+</body>
+</html>

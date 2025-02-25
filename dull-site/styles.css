@@ -1,0 +1,1395 @@
+/*! normalize.css v8.0.0 | MIT License | 
+github.com/necolas/normalize.css */
+
+/* Document
+   ============================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ===================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+  margin: 0;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+  font-size: 2.5em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ============================================================= */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, 
+ and Safari.
+ */
+
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+
+img {
+  border-style: none;
+}
+
+/* Forms
+   ============================================================== */
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they 
+      zero out `fieldset` elements in all browsers.
+ */
+
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ============================================================== */
+
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ================================================================== */
+
+/**
+ * Add the correct display in IE 10+.
+ */
+
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+
+[hidden] {
+  display: none;
+}
+/*© 2018 GitHub, Inc.*/
+
+
+/*Global Styles*/
+/*Coded by Jessica Barnett*/
+
+html{
+	font-family: Raleway, sans-serif;
+	color: #474747;
+	background-color: #B9CB5A;
+	line-height: 1.5em;
+  	box-sizing: border-box;
+}
+
+body{
+	background-color: white;
+	margin: 0 auto;
+	padding: 0 2em;
+}
+
+.hidden{
+	display: none;
+	height: 0;
+	margin: 0;
+}
+
+/* Screen reader only */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
+
+header{
+	background-color: white;
+}
+
+/*This block has been removed from the HTML for now*/
+/*#hours{
+	margin: 1em auto;
+}
+
+#hoursTitle{
+	text-align: center;
+	color: #B9CB5A;
+	font-size: 2em;
+}
+
+#hoursList{
+	background-color: #51AACF;
+	color: white;
+	font-weight: bold;
+	max-width: 300px;
+	margin: 0 auto;
+	text-align: center;
+	list-style-type: none;
+	padding-left: 0;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}*/
+
+#homePageHero{
+	margin: 0.5em auto;
+	width: 100%;
+}
+
+#calendar{
+	max-width: 100%;
+	margin: 2em auto;
+}
+
+#calendar iframe{
+	width: 100%;
+	height: 75vh;
+}
+
+h2{
+	font-weight: bold;
+	text-align: center;
+	font-size: 1.5em;
+	margin: 1em;
+}
+
+h3{
+	font-weight: bold;
+	text-align: center;
+	font-size: 1.5em;
+	margin: 1em;
+}
+
+h4{
+	margin: .5em 0;	
+}
+
+h5{
+	font-weight: bold;
+	text-align: center;
+	font-size: 1.5em;
+	margin: 1em;
+}
+
+h6{
+	font-weight: bold;
+	text-align: center;
+	font-size: 1.5em;
+	margin: 1em;
+}
+
+.profName{
+	font-size: 1.5em;
+	line-height: 1.2em;
+	margin: .5em 0;
+}
+
+.professor img{
+	width: 225px;
+	margin: 0 auto;
+	display: block;
+}
+
+/*#donate p{
+	width: 80%;
+	margin: 0 auto;
+}*/
+
+#donate a{
+	color: #51AACF;
+	text-decoration-color: #51AACF;
+}
+
+footer{
+	background-color: #474747;
+	padding: 1em;
+	margin-top: 2em;
+}
+
+footer h3{
+	color: white;
+	margin-top: 0;
+}
+
+#contactForm{
+	text-align: center;
+	display: inline-block;
+	max-width: 100%;
+	grid-column-start: 1;
+	grid-column-end: 2;
+}
+
+input, textarea{
+	max-width: 100%;
+	min-width: 100%;
+	display: block;
+	padding: .8em 0;
+	margin: 1em 0;
+	background-color: #707070;
+	color: white;
+	text-align: center;
+	border: none;
+}
+
+#mySubmit{
+	max-width: 100%;
+	min-width: 100%;
+	color: white;
+	background-color: #51AACF;
+	padding: .8em;
+	border: none;
+}
+
+footer iframe{
+	max-height: 300px;
+	display: inline-block;
+	width: 100%;
+}
+
+/*#footerHoursList{
+	background-color: white;
+	display: inline-block;
+	padding: 1em;
+	list-style-type: none;
+	line-height: 2em;
+	max-width: 100%;
+	margin: 0;
+}*/
+
+#mapAndAddress p{
+	color: #fff;
+	margin: .3em 0 0 0;
+	text-align: center;
+}
+
+#copyrightStatement{
+	text-align: center;
+	color: white;
+	font-size: .8em;
+	display: block;
+	padding-top: 1em;
+}
+
+
+/*Desktop Styles*/
+@media only screen and (min-width: 66.51em) {
+	body{
+		max-width: 1000px;
+	}
+
+	.bigLogo img{
+		max-width: 700px;
+		margin: 0 auto;
+		display: block;
+	}
+
+	.menu-toggle,
+	.main-menu .menu-close {
+		display: none;
+	}
+
+	.centeredText{
+		text-align: center;
+		color: #51AACF;
+		font-weight: bold;
+		font-size: 2em;
+		line-height: 1.5em;
+		margin: 0;
+	}
+
+	nav{
+		margin: 0 auto;
+	}
+
+	nav ul{
+		margin: 0 auto;
+		padding-left: 0;
+	}
+
+	nav li{
+		list-style-type: none;
+		font-size: 1.8em;
+		display: inline-block;
+	}
+
+	nav a{
+		text-decoration: none;
+		color: #474747;
+	}
+
+	.active{
+		text-decoration: underline;
+		text-decoration-color: #B9CB5A;
+	}
+
+	nav ul{
+		display: grid;
+		grid-gap: 1%;
+		grid-template-columns: 15% 16% 22% 26% 15%;
+		margin: 1em auto 2em auto;
+		max-width: 100%;
+		text-align: center;
+	}
+
+	nav li{
+		padding: .5em;
+		text-align: center;
+	}
+
+	nav a:hover{
+		text-decoration: underline;
+		text-decoration-color: #B9CB5A;
+	}
+
+	/*Previous design. These images were commented out on the index page
+	#navImageBlock{
+		display: grid;
+		grid-gap: 4%;
+		grid-row-gap: 4%;
+		grid-template-columns: 48% 48%;
+		margin: 0 auto 3em 0;
+	}
+
+	.navImages{
+		max-width: 100%;
+		display: inline;
+		margin: 0 auto;
+		-webkit-transition: opacity 1s ease;
+	    -moz-transition: opacity 1s ease;
+	    -o-transition: opacity 1s ease;
+	    -ms-transition: opacity 1s ease;
+	    transition: opacity 1s ease;
+	}
+
+	.navImages:hover{
+		opacity: 0.6;
+	}
+
+	#homePageParagraphs{
+		display: block;
+		width: 90%;
+	}*/
+
+	.homePageText{
+		max-width: 100%;
+		display: inline-block;
+	}
+
+	.tutoringInfo{
+		max-width: 100%;
+		display: grid;
+		grid-gap: 6%;
+		grid-template-columns: 47% 47%;
+		margin: 3em auto;
+	}
+
+	.imageFloatLeft{
+		max-width: 500px;
+		margin: 0 auto;
+	}
+
+	.tutors{
+		max-width: 100%;
+		display: grid;
+		grid-gap: 3%;
+		grid-template-columns: 15% 29% 15% 29%;
+		margin: 3em auto;
+	}
+
+	.tutors img{
+		max-width: 175px;
+		margin: 0;
+	}
+
+	.tutors h3{
+		margin-top: 0;
+	}
+
+	.tutors p{
+		margin-left: .5em;
+	}
+
+	#workshopDescriptions{
+		display: grid;
+		grid-gap: 2em;
+		grid-template-columns: 30% 30% 30%;
+	}
+
+	.workshop img{
+		max-width: 100%;
+	}
+
+	#monitorWall{
+		display: grid;
+		grid-gap: 6%;
+		grid-template-columns: 47% 47%;
+		margin: 3em auto;
+	}
+
+	#monitorWall img{
+		max-width: 100%;
+	}
+
+	#currentDisplays{
+		display: grid;
+		grid-gap: 3%;
+		grid-template-columns: 23% 23% 23% 23%;
+		margin: 0 auto;
+		max-width: 100%
+	}
+
+	.deviceWallSection img{
+		width: 65%;
+		margin: 0 auto;
+		padding-left: 2.5em;
+	}
+
+	.deviceWall{
+		display: grid;
+		grid-gap: 6%;
+		grid-template-columns: 47% 47%;
+		margin: 3em auto;
+	}
+
+	.deviceWall img{
+		width: 100%;
+	}
+
+	#currentDevices{
+		display: grid;
+		grid-gap: 6%;
+		grid-template-columns: 47% 47%;
+		margin: 3em auto;
+	}
+
+	#currentDevices img{
+		margin: 0 auto;
+		display: block;
+	}
+
+	.phone{
+		max-width: 100px;
+	}
+
+	.tablet{
+		max-width: 150px;
+	}
+
+	#currentDevices ul{
+		max-width: 50%;
+		display: inline-block;
+	}
+
+	#currentDevices li{
+		list-style-type: none;
+		text-align: center;
+		margin-left: 1em;
+	}
+
+	#aboutProfessors{
+		display: grid;
+		grid-gap: 6%;
+		grid-template-columns: 30% 30% 30%;
+		margin: 0 auto;
+		max-width: 100%;
+	}
+
+	#donate{
+		display: grid;
+		grid-gap: 3%;
+		grid-template-columns: 38% 59%;
+		margin: 1em auto;
+	}
+
+	#donate img{
+		max-width: 100%;
+	}
+
+	#donate p{
+		width: 100%;
+	}
+
+	#footerContent{
+		display: grid;
+		grid-gap: 1em;
+		grid-template-columns: 32% 64%;
+		align-items: start;
+		margin: 0 auto;
+		max-width: 100%;
+		padding-top: 1em;
+	}
+
+	footer iframe{
+		width: 100%;
+		height: 90%;
+	}
+
+	#mapAndAddress{
+		height: 90%;
+	}
+}
+
+@media only screen and (min-width: 40.01em) and (max-width: 66.5em)
+ and (-webkit-min-device-pixel-ratio: 1.5){
+/*Tablet Styles*/
+
+	/*nav ul{
+		display: grid;
+		grid-gap: 1%;
+		grid-template-columns: 17% 17% 23% 24% 15%;
+		margin: 1em auto 2em auto;
+		max-width: 100%;
+		text-align: center;
+	}
+
+	nav li{
+		padding: .5em;
+		text-align: center;
+	}*/
+
+	.bigLogo img{
+		max-width: 700px;
+		width: 80%;
+		margin: 0 auto;
+		display: block;
+	}
+
+	nav{
+		margin: 0 auto;
+	}
+
+	nav ul{
+		margin: 0 auto;
+		padding-left: 0;
+	}
+
+	nav li{
+		list-style-type: none;
+		font-size: 1.8em;
+		display: inline-block;
+	}
+
+	nav a{
+		text-decoration: none;
+		color: #474747;
+	}
+
+	.active{
+		text-decoration: underline;
+		text-decoration-color: #B9CB5A;
+	}
+
+	nav ul{
+		display: grid;
+		grid-gap: 1%;
+		grid-template-columns: 15% 16% 22% 26% 15%;
+		margin: 1em auto 2em auto;
+		max-width: 100%;
+		text-align: center;
+	}
+
+	nav li{
+		padding: .5em;
+		text-align: center;
+	}
+
+	.menu-toggle,
+	.main-menu .menu-close {
+		display: none;
+	}
+
+	.centeredText{
+		text-align: center;
+		color: #51AACF;
+		font-weight: bold;
+		font-size: 2em;
+		line-height: 1.5em;
+		margin: 0;
+	}
+
+	.tutoringInfo{
+		max-width: 100%;
+		display: grid;
+		grid-gap: 3%;
+		grid-template-columns: 40% 57%;
+		margin: 1em auto;
+	}
+
+	.tutoringInfo img{
+		padding-top: 1em;
+	}
+
+	.tutoringInfo h2{
+		margin-top: 0;
+	}
+
+	.imageFloatLeft{
+		max-width: 100%;
+		margin: 0 auto;
+	}
+
+	.tutors{
+		display: grid;
+		grid-gap: 3%;
+		grid-template-columns: 38% 59%;
+		margin: 1em auto;
+	}
+
+	.tutors img{
+		max-width: 90%;
+		margin: 0 auto;
+	}
+
+	.tutors h3{
+		margin-top: 0;
+		text-align: center;
+	}
+
+	.tutors p{
+		margin-left: .5em;
+	}
+
+	#aboutProfessors{
+		display: grid;
+		grid-gap: 1em;
+		grid-template-columns: 32% 32% 32%;
+		margin: 0 auto;
+		max-width: 100%;
+	}
+
+	.professor img{
+		width: 180px;
+		max-width: 180px;
+		margin: 0 auto;
+		display: block;
+	}
+
+	#donate{
+		display: grid;
+		grid-gap: 3%;
+		grid-template-columns: 48% 49%;
+		margin: 1em auto;
+	}
+
+	#donate img{
+		max-width: 100%;
+	}
+
+	#donate p{
+		width: 100%;
+	}
+
+	#monitorWall{
+		display: grid;
+		grid-gap: 6%;
+		grid-template-columns: 47% 47%;
+		margin: 1em auto;
+	}
+
+	#monitorWall img{
+		max-width: 100%;
+	}
+
+	#monitorWall h3{
+		margin: 0;
+	}
+
+	#currentDisplays{
+		display: grid;
+		grid-gap: 3%;
+		grid-row-gap: 2em;
+		grid-template-columns: 23% 23% 23% 23%;
+		margin: 0 auto;
+		max-width: 100%
+	}
+
+	.deviceWallSection img{
+		width: 65%;
+		margin: 0 auto;
+		padding-left: 2.5em;
+	}
+
+	.deviceWall{
+		display: grid;
+		grid-gap: 6%;
+		grid-template-columns: 47% 47%;
+		margin: 1em auto;
+	}
+
+	.deviceWall img{
+		width: 100%;
+	}
+
+	.deviceWall p{
+		margin-top: 0;
+	}
+
+	#currentDevices{
+		display: grid;
+		grid-gap: 6%;
+		grid-template-columns: 47% 47%;
+		margin: 1em auto;
+	}
+
+	#currentDevices img{
+		margin: 0 auto;
+		display: block;
+	}
+
+	.phone{
+		max-width: 100px;
+	}
+
+	.tablet{
+		max-width: 150px;
+	}
+
+	#currentDevices ul{
+		width: 100%;
+		display: inline-block;
+		text-align: center;
+		padding-left: 0;
+	}
+
+	#currentDevices li{
+		list-style-type: none;
+		text-align: center;
+	}
+
+
+	#footerContent{
+		display: grid;
+		grid-gap: 1em;
+		grid-template-columns: 32% 64%;
+		align-items: start;
+		margin: 0 auto;
+		max-width: 100%;
+		padding-top: 0.8em;
+	}
+
+	footer iframe{
+		height: 100%;
+		width: 100%;
+	}
+
+	#mapAndAddress{
+		height: 82%;
+	}
+
+}
+
+/*XS Media Query up to 640px/40em mobile screens*/
+@media only screen and (max-width: 40em){
+/*Mobile Styles*/
+
+	body{
+		max-width: 100%;
+		padding: 1em;
+	}
+
+	header{
+		margin-bottom: 1em;
+		color: #fff;
+		background-color: #474747;
+		width: 100vw;
+		margin-left: -1em;
+		margin-top: -1em;
+	}
+
+	.bigLogo{
+		display: none;
+	}
+
+	.mobileLogo{
+		display: inline;
+		float: right;
+		margin-right: 10%;
+	}
+
+	.mobileLogo img{
+		max-width: 60%;
+		display: inline;
+	}
+/*
+	nav ul{
+		display: grid;
+		grid-gap: 1%;
+		grid-template-columns: 100%;
+		margin: 1em auto 2em auto;
+		max-width: 100%;
+		text-align: center;
+	}
+
+	nav li{
+		padding: .5em;
+		text-align: center;
+		font-size: 1.5em;
+		margin-bottom: 1em;
+	}
+
+	nav a{
+		display: block;
+	}*/
+
+		/* Button styling */
+	.menu-toggle {
+	  display: inline-block;
+	  padding: .75em 15px;
+	  line-height: 1em;
+	  font-size: 1.8em;
+	  color: #fff;
+	}
+
+	.menu-toggle:hover,
+	.menu-toggle:focus {
+	  color: #fff;
+	}
+
+	.main-menu {
+		position: absolute;
+		left: -200px;
+		top: 0;
+		height: 100%;
+		overflow-y: scroll;
+		overflow-x: visible;
+		transition: left 0.3s ease,
+		box-shadow 0.3s ease;
+		z-index: 999;
+	}
+
+	.main-menu ul {
+	  	list-style: none;
+	  	margin: 0;
+	  	padding: 2.5em 0 0;
+	  	/* Hide shadow w/ -8px while 'closed' */
+	  	-webkit-box-shadow: -8px 0 8px rgba(0,0,0,.5);
+	    -moz-box-shadow: -8px 0 8px rgba(0,0,0,.5);
+	    box-shadow: -8px 0 8px rgba(0,0,0,.5);
+	  	min-height: 100%;
+	  	width: 200px;
+	  	background: #474747;
+	}
+
+	.main-menu a {
+		display: block;
+		padding: .75em 15px;
+		line-height: 1em;
+		font-size: 1.5em;
+		font-weight: bold;
+		color: #fff;
+		text-decoration: none;
+		border-bottom: 1px solid #474747;
+	}
+
+	.main-menu li:first-child a {
+	  border-top: 1px solid #474747;
+	}
+
+	.main-menu a:hover,
+	.main-menu a:focus {
+	  	background: #333;
+	  	text-decoration: underline;
+	}
+
+	.main-menu .menu-close {
+	  	position: absolute;
+	  	right: 0;
+	  	top: 0;
+	}
+
+	.main-menu:target,
+	.main-menu[aria-expanded="true"] {
+		display: block;
+		left: 0;
+		outline: none;
+		-moz-box-shadow: 3px 0 12px rgba(0,0,0,.25);
+		-webkit-box-shadow: 3px 0 12px rgba(0,0,0,.25);
+		box-shadow: 3px 0 12px rgba(0,0,0,.25);
+	}
+
+	.main-menu:target .menu-close,
+	.main-menu[aria-expanded="true"] .menu-close {
+	  	z-index: 1001;
+	}
+
+	.main-menu:target ul,
+	.main-menu[aria-expanded="true"] ul {
+		position: relative;
+		z-index: 1000;
+	}
+
+	.main-menu:target + .backdrop,
+	.main-menu[aria-expanded="true"] + .backdrop{
+	  	position: absolute;
+	  	display: block;  
+	  	left: 0;
+	  	top: 0;
+	  	width: 100%;
+	  	height: 100%;
+	  	z-index: 998;
+	  	background: #000;
+	  	background: rgba(0,0,0,.85);
+	  	cursor: default;
+	}
+
+	@supports (position: fixed) {
+		.main-menu,
+		.main-menu:target + .backdrop,
+		.main-menu[aria-expanded="true"] + .backdrop{
+	    	position: fixed;
+	  }
+	}
+
+	.centeredText{
+		margin: 0.3em;
+		text-align: center;
+		font-size: 1.8em;
+		line-height: 1.3em;
+		color: #51AACF;
+		font-weight: bold;
+	}
+
+	#aboutProfessors{
+		display: grid;
+		grid-gap: 1em;
+		grid-template-columns: 100%;
+		margin: 0 auto;
+		max-width: 100%;
+	}
+
+	.professor img{
+		width: 225px;
+		max-width: 225px;
+		margin: 0 auto;
+		display: block;
+	}
+
+	#donate{
+		display: grid;
+		grid-template-columns: 100%;
+		margin: 1em auto;
+	}
+
+	#donate img{
+		max-width: 100%;
+	}
+
+	#donate p{
+		width: 100%;
+	}
+
+	.tutoringInfo{
+		max-width: 100%;
+		display: grid;
+		grid-template-columns: 100%;
+		margin: 1em auto;
+	}
+
+	.imageFloatLeft{
+		max-width: 100%;
+		margin: 0 auto;
+	}
+
+	.textFloatRight{
+		margin: 0.5em;
+	}
+
+	.tutors{
+		max-width: 100%;
+		display: grid;
+		grid-template-columns: 100%;
+		margin: 1em auto;
+	}
+
+	.tutors img{
+		max-width: 80%;
+		margin: 0 auto;
+		display: block;
+	}
+
+	.tutors h3{
+		margin-top: .5em;
+	}
+
+	.tutors p{
+		margin-left: .5em;
+	}
+
+	#monitorWall{
+		display: grid;
+		grid-gap: 6%;
+		grid-template-columns: 100%;
+		margin: 2em auto;
+	}
+
+	#monitorWall img{
+		max-width: 100%;
+	}
+
+	#monitorWall h3{
+		margin: 0;
+	}
+
+	#currentDisplays{
+		display: grid;
+		grid-gap: 3%;
+		grid-template-columns: 47% 47%;
+		margin: 0 auto;
+		max-width: 100%
+	}
+
+	.deviceWallSection img{
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.deviceWall{
+		display: grid;
+		grid-gap: 3%;
+		grid-template-columns: 100%;
+		margin: 1em auto;
+	}
+
+	.deviceWall img{
+		width: 100%;
+	}
+	.deviceWall p{
+		margin-top: 0;
+	}
+
+	#currentDevices{
+		display: grid;
+		grid-template-columns: 100%;
+		margin: 1em auto;
+	}
+
+	#currentDevices img{
+		margin: 1em auto;
+		display: block;
+	}
+
+	.phone{
+		max-width: 100px;
+	}
+
+	.tablet{
+		max-width: 150px;
+	}
+
+	#currentDevices ul{
+		width: 100%;
+		display: inline-block;
+		margin: 0.5em auto;
+		padding-left: 0;
+		margin-bottom: 0;
+	}
+
+	#currentDevices li{
+		list-style-type: none;
+		text-align: center;
+		/*margin-left: 2em;*/
+	}
+
+	#footerContent{
+		display: grid;
+		column-gap: 1em;
+		grid-template-columns: 100%;
+		align-items: start;
+		margin: 0 auto;
+		max-width: 100%;
+	}
+
+	#contactStatement{
+		margin-top: 1em;
+	}
+
+	footer iframe{
+		margin-top: 1em;
+		width: 100%;
+		height: 200px;
+	}
+
+	#mapAndAddress{
+		height: 90%;
+	}
+
+	#copyrightStatement{
+		margin-top: 1em;
+	}
+}

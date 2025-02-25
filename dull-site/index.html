@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Device &amp; Usability Learning Lab</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="The Device and Usability Learning Lab is located on the ASU Polytechnic Campus in Mesa, AZ. The lab offers tutoring, usability testing, responsive website testing, and collaborative space to students and faculty.">
+	<meta name="author" content="Jessica Barnett">
+	<meta name="keywords" content="Mesa, AZ, usability, responsive web, design, UI/UX, Accessibility">
+	<script src="https://cdnjs.cloudflare.com/polyfill/v2/polyfill.min.js"></script>
+	<!-- Site-Specific CSS -->
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<!-- Font Awesome Icons for Mobile Menu -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<!-- Import Raleway Font -->
+	<link href='https://fonts.googleapis.com/css?family=Raleway:300,600' rel='stylesheet' type='text/css'>
+	<!--[if lt IE 9]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<script>
+			//Picture element HTML5 shiv
+			document.createElement("picture");
+	</script>
+	<script src="picturefill.min.js" async></script>
+</head>
+<body>
+	<!-- <?php include 'contact.php';?> -->
+	<header role="banner">
+		<h1 class="hidden">The Device and Usability Learning Lab</h1>
+		<div class="bigLogo">
+			<a href="index.html"><img class="logo" src="images/DULL-logo.png" alt="The logo for the Device and Usability Learning Lab includes the name of the lab in text"></a>
+		</div>
+		<a href="#main-menu"
+		    id="main-menu-toggle"
+		    class="menu-toggle"
+		    aria-label="Open main menu">
+		    <span class="sr-only">Open main menu</span>
+		    <span class="fa fa-bars" aria-hidden="true"></span>
+	  	</a>
+		<nav id="main-menu" class="main-menu" aria-label="Main menu" role="navigation">
+			<h2 class="hidden">Navigation</h2>
+			<a href="#main-menu-toggle"
+    			id="main-menu-close"
+    			class="menu-close"
+     			aria-label="Close main menu">
+    			<span class="sr-only">Close main menu</span>
+    			<span class="fa fa-times" aria-hidden="true"></span>
+    		</a>
+			<ul id="menu">
+				<li class="nav-item">
+					<a class="nav-link active" href="index.html">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="hours.html">Hours</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="tutoring.html">Tutoring</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="equipment.html">Equipment</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="about.html">About</a>
+				</li>
+			</ul>
+		</nav>
+		<a href="#main-menu-toggle"
+    		class="backdrop"
+    		tabindex="-1"
+    		aria-hidden="true" hidden>
+    	</a>
+		<!-- <div class="mobileLogo">
+			<a href="index.html"><img class="logo" src="images/DULLsquareLogo.png" alt="The logo for the Device and Usability Learning Lab includes the name of the lab in text"></a>
+		</div> -->
+	</header>
+	<main role="main">
+		<h2 class="centeredText alignWithHamburger">Welcome&nbsp;to the&nbsp;DULL!</h2>
+		<!-- <img id="homePageHero"
+			 srcset="images/DULLheroPhone.png 640w, images/DULLhero.JPG 1000w"
+		     sizes="(max-width: 640px) 100vw, 1000px"
+		     src="images/DULLhero.JPG" alt="Panoramic Photo of the back half of the lab. Monitors, smart phones, and the whiteboard wall can be seen"> -->
+		<img id="homePageHero" src="images/DULLhero.JPG" alt="Panoramic Photo of the back half of the lab. Monitors, smart phones, and the whiteboard wall can be seen">
+		<div id="homePageParagraph">
+			<p class="homePageText">The Device & Usability Learning Lab is the first of its kind in Arizona, combining the concept of an open device lab with a usability research facility. It provides a unique 
+			learning environment for ASU faculty, staff, and students. <br><br>
+			 Our device wall features over a dozen devices including smartphones, tablets, laptops, computers, and a smart TV from Apple, Android, Kindle and Windows. It instantly populates all devices with your website or web app to facilitate testing. Learning and research topics include user-centered design, user experience, usability testing, heuristic evaluation, accessibility testing, and click tracking analytics.</p>
+		</div>
+	</main>
+
+	<footer>
+		<h2 class="hidden">Contact Form and Map</h2>
+		<div id="footerContent">
+			<div id="contactForm">
+				<h3>Contact the DULL</h3>
+				<form method="post" action="contact.php" role="form">
+					<input type="text" name="myName" value="Name" required>
+					<input type="email" name="myEmail" value="Email" required>
+					<textarea name="myComments" required>Message</textarea>
+					<button type="submit" name="submit" id="mySubmit">Submit</button>
+				</form>
+			</div>
+			<div id="mapAndAddress">
+				<h3 class="hidden">Google Maps Directions to the Lab</h3>
+				<iframe src="https://www.google.com/maps/embed/v1/view?zoom=17&center=33.3065%2C-111.6765&key=AIzaSyANsJfodb7GOrBCHVmDPnWgIjnAkdFdbEQ" allowfullscreen></iframe>
+				<p>Device and Usability Learning Lab<br>7271 E Sonoran Arroyo Mall #157, Mesa, AZ 85212</p>
+			</div>
+		</div>
+		<p id="copyrightStatement">Copyright &copy; 2019 Device and Usability Learning Lab</p>
+	</footer>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"917a2bc23b5f7d27","serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"version":"2025.1.0","token":"e64fdfc25a574723a13d1f77e07bc18c"}' crossorigin="anonymous"></script>
+</body>
+</html>
